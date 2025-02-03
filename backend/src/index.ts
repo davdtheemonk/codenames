@@ -2,7 +2,7 @@ import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
 import http from "http";
 import cors from "cors";
-import { GameSocket } from "./utils/socket"; // Import ChatSocket class
+import { GameSocket } from "./utils/socket"; // Import GameSocket class
 import { Server } from "socket.io";
 import { log } from "./utils/logger";
 dotenv.config();
