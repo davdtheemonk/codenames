@@ -57,11 +57,6 @@ npm run dev
 3. Click start game on the first players' tab you added
 4. Play
 ```
-```bash
-Open a minimum of four tabs
-```
-
-By default, the frontend runs on **`http://localhost:5173`** and the backend runs on **`http://localhost:5000`**.
 
 ---
 
