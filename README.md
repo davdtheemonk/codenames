@@ -1,6 +1,6 @@
 # Codenames Game
 
-A real-time, multiplayer Codenames game built with **Vite (React)** for the frontend currently hosted on **Vercel** and **Node.js (Express + Socket.io)** for the backend currently hosted on **AWS** See Demo (<a href="https://codenames-pi.vercel.app/">here</a>)
+A real-time, multiplayer Codenames game built with **React** for the frontend currently hosted on **Vercel** and **Node.js (Express + Socket.io)** for the backend currently hosted on **AWS** See Demo (<a href="https://codenames-pi.vercel.app/">here</a>)
 
 **NB** You need a minimum of 4 players to play the game( <a href="#instructions">
 <strong>Instructions</strong>
