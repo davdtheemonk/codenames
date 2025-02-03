@@ -31,8 +31,6 @@ services:
       - "3001:3001"
     networks:
       - shared-network
-    env_file:
-      - ./backend/.env
     volumes:
       - ./backend:/backend
     platform: linux/x86_64
