@@ -67,7 +67,7 @@ npm run dev
 
 ## 🛠 Environment Variables
 
-For the **frontend**, create a `.env` file in the `client` directory:
+Create an `.env` file in the `or the **frontend** directory:
 
 ```env
 VITE_BACKEND_URL = http://localhost:3001
@@ -77,7 +77,7 @@ VITE_BACKEND_URL = http://localhost:3001
 
 ## 🖥️ Tech Stack
 
-- **Frontend:** React (Vite), TypeScript, Emotion.js (CSS-in-JS)
+- **Frontend:** React, TypeScript, Emotion.js (CSS-in-JS)
 - **Backend:** Node.js, Express, Socket.io
 - **Cloud Services:** Vercel, AWS
 - **Contenarization:** Docker
