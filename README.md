@@ -2,6 +2,10 @@
 
 A real-time, multiplayer Codenames game built with **Vite (React)** for the frontend currently hosted on **Vercel** and **Node.js (Express + Socket.io)** for the backend currently hosted on **AWS** See Demo (<a href="https://codenames-pi.vercel.app/">here</a>)
 
+**NB** You need a minimum of 4 players to play the game( <a href="#instructions">
+<strong>Instructions</strong>
+</a>)
+
 ## 🚀 Features
 
 - **Fast & Optimized:** Uses Vite for fast development and builds.
@@ -51,8 +55,10 @@ cd frontend
 npm run dev
 ```
 
+### **Instructions**
+
 ```bash
-1. Open a minimum of four tabs, the game requires a minimum of four player( 2 spymasters and 2 operatives)
+1. For demonstartion purposes, open a minimum of four tabs, the game requires a minimum of four players( 2 spymasters and 2 operatives)
 2. Fill in demo players, 2 on each team, red and blue.
 3. Click start game on the first players' tab you added
 4. Play with your friends
@@ -74,7 +80,7 @@ VITE_BACKEND_URL = http://localhost:3001
 
 - **Frontend:** React (Vite), TypeScript, Emotion.js (CSS-in-JS)
 - **Backend:** Node.js, Express, Socket.io
-- **Cloud Services:** AWS
+- **Cloud Services:** Vercel, AWS
 - ***
 
 ## 📌 Future Enhancements
