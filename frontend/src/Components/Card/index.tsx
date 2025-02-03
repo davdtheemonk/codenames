@@ -39,6 +39,21 @@ const Card = styled.div<CardProps>`
     }};
     transition: background-color 0.3s ease-in-out;
   }
+  @media (max-width: 768px) {
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  @media (max-width: 600px) {
+    max-width: 100%;
+  }
+
+  @media (max-width: 480px) {
+    width: 22px;
+    height: 22px;
+    font-size: 12px;
+  }
 `;
 
 export default Card;
