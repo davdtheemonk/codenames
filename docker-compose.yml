@@ -25,6 +25,7 @@ services:
     image: codenames-backend
     restart: unless-stopped
     build:
+      context: ./backend 
       dockerfile: Dockerfile
     ports:
       - "3001:3001"
@@ -35,8 +36,6 @@ services:
     volumes:
       - ./backend:/backend
     platform: linux/x86_64
-
-
 
  
 
