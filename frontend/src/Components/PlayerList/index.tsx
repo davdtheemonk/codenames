@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import styled from "@emotion/styled";
 import { PlayerListProps } from "../../types";
 import { keyframes } from "@emotion/react";
@@ -87,7 +87,7 @@ const PlayerList: React.FC<PlayerListProps> = ({
   setShowKeyCard,
   showKeyCard,
 }) => {
-  const { me, sendClue, currentTurn } = useContext(GameContext);
+  const { me, currentTurn } = useContext(GameContext);
   const isSpyMaster = me
     ? players.some(
         (player) => player.id === me.id && player.role === "spymaster"

@@ -1,5 +1,5 @@
 import CardGrid from "../CardGrid";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import { GameContext } from "../../context/gameContext";
 import Card from "../Card";
 import Button from "../Button";
@@ -11,7 +11,7 @@ import PlayerList from "../PlayerList";
 import KeyCardDisplay from "../KeyCard";
 import parse from "html-react-parser";
 import { socket } from "../../utils/socket";
-import { CardColor, Card as CardType } from "../../types";
+import { Card as CardType } from "../../types";
 import Scoreboard from "../Scoreboard";
 import WinnerDisplay from "../WinnerDisplay";
 
