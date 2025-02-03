@@ -38,12 +38,3 @@ services:
  
 
   
-networks:
-  shared-network:
-    ipam:
-      driver: default
-      config:
-        - subnet: 172.22.0.0/16  # Specify the desired subnet
-
-
-
