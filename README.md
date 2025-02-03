@@ -51,6 +51,16 @@ cd frontend
 npm run dev
 ```
 
+```bash
+1. Open a minimum of four tabs
+2. Fill in demo player 2 on each team, red and blue.
+3. Click start game on the first players' tab you added
+4. Play
+```
+```bash
+Open a minimum of four tabs
+```
+
 By default, the frontend runs on **`http://localhost:5173`** and the backend runs on **`http://localhost:5000`**.
 
 ---
