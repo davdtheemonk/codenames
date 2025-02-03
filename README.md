@@ -52,8 +52,8 @@ npm run dev
 ```
 
 ```bash
-1. Open a minimum of four tabs
-2. Fill in demo player 2 on each team, red and blue.
+1. Open a minimum of four tabs, the game requires a minimum of four player( 2 spymasters and 2 operatives)
+2. Fill in demo players, 2 on each team, red and blue.
 3. Click start game on the first players' tab you added
 4. Play
 ```
