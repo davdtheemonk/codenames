@@ -18,12 +18,7 @@ const StyledInput = styled.input`
   }
 `;
 
-const Input: React.FC<inputProps> = ({
-  value,
-  setValue,
-  title,
-  defaultValue,
-}) => {
+const Input: React.FC<inputProps> = ({ value, setValue, title }) => {
   return (
     <StyledInput
       value={value}
