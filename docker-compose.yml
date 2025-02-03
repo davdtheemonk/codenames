@@ -6,7 +6,8 @@ services:
     restart: always
     container_name: my_nginx_container
     ports:
-      - "80:80"
+       - "80:80"
+       - "443:443"
     build:
       context: ./nginx
       dockerfile: Dockerfile
@@ -15,7 +16,7 @@ services:
       - /etc/letsencrypt/live/deme.blobcart.com/fullchain.pem:/etc/letsencrypt/live/deme.blobcart.com/fullchain.pem
       - /etc/letsencrypt/live/deme.blobcart.com/privkey.pem:/etc/letsencrypt/live/deme.blobcart.com/privkey.pem
     depends_on:
-      - backend
+      - backend-dev
 
 
 
