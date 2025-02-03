@@ -59,7 +59,7 @@ npm run dev
 ```bash
 1. For demonstartion purposes, open a minimum of four tabs, the game requires a minimum of four players( 2 spymasters and 2 operatives)
 2. Fill in demo players, 2 on each team, red and blue.
-3. Click start game on the first players' tab you added
+3. Click start game on the tab of the first player who joined .
 4. Play.
 ```
 
