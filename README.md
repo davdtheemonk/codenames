@@ -1,6 +1,6 @@
 # Codenames Game
 
-A real-time, multiplayer Codenames game built with **Vite (React)** for the frontend and **Node.js (Express + Socket.io)** for the backend.
+A real-time, multiplayer Codenames game built with **Vite (React)** for the frontend currently hosted on **Vercel** and **Node.js (Express + Socket.io)** for the backend currently hosted on **AWS** See Demo (<a href="https://codenames-pi.vercel.app/">here</a>)
 
 ## 🚀 Features
 
@@ -55,7 +55,7 @@ npm run dev
 1. Open a minimum of four tabs, the game requires a minimum of four player( 2 spymasters and 2 operatives)
 2. Fill in demo players, 2 on each team, red and blue.
 3. Click start game on the first players' tab you added
-4. Play
+4. Play with your friends
 ```
 
 ---
@@ -74,11 +74,12 @@ VITE_BACKEND_URL = http://localhost:3001
 
 - **Frontend:** React (Vite), TypeScript, Emotion.js (CSS-in-JS)
 - **Backend:** Node.js, Express, Socket.io
+- **Cloud Services:** AWS
 - ***
 
 ## 📌 Future Enhancements
 
 - 🏆 Store game state in **Redis** for scalability
-- 🔄 Add **MongoDB/PostgreSQL** for persistent game history
 - 📱 Improve mobile experience with better touch interactions
-- **Deployment:** Nginx, Docker
+- **Deployment:** CI/CD
+- Automated tests
