@@ -28,7 +28,6 @@ const Input: React.FC<inputProps> = ({
     <StyledInput
       value={value}
       placeholder={title}
-      defaultValue={defaultValue || ""}
       type={title === "Password" ? "password" : "text"}
       onChange={(e) => setValue(e.target.value)}
     />
