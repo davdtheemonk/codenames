@@ -47,7 +47,7 @@ COPY --from=build /backend/node_modules ./node_modules
 COPY --from=build /backend/dist ./dist 
 
 # Expose the port that the app will run on (example: 4040)
-EXPOSE 4040
+EXPOSE 3001
 
 # Command to run the application (point to the entry file in dist)
 CMD ["node", "dist/src/index.js"]
