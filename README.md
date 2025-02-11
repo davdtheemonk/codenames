@@ -44,7 +44,7 @@ npm install
 #### Start the Backend (Node.js Express)
 
 ```bash
-npm start
+npm run dev
 ```
 
 #### Start the Frontend (Vite)
